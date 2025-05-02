@@ -25,4 +25,5 @@ jobs:
         aws s3 sync . s3://madhur-cloud-resume \
           --exclude ".git/*" \
           --exclude ".idea/*" \
-          --delete
+          --delete \
+          --no-preserve-acl

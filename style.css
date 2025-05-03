@@ -92,6 +92,35 @@ section ul {
   margin-bottom: 5px;
 }
 
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  max-width: 400px;
+  padding-top: 2em;
+}
+
+.contact label {
+  font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+  padding: 0.5em;
+  font-size: 1em;
+  width: 100%;
+}
+
+.contact button {
+  padding: 0.6em;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 /* Footer */
 footer {
   text-align: center;

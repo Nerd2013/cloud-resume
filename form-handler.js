@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     try {
-      const response = await fetch("https://YOUR_API_ID.execute-api.us-east-1.amazonaws.com/contact", {
+      const response = await fetch("https://wtjxtdt1bk.execute-api.us-east-1.amazonaws.com/prod/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
